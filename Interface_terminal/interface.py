@@ -1,7 +1,7 @@
 import os
+from ..PlayerFile.player_setting import my_player
 
 class Interface:
-
     def clear_screen():
         os.system('cls' if os.name == 'nt' else 'clear')
 
@@ -31,5 +31,3 @@ class Interface:
         print("| [7] Tecnologia    | [8] Religiosa       |  [9] Mentiroso   |")
         print("o============================================================o")
 
-# ideia para o futuro
-# Pacto Demôniaco
