@@ -1,13 +1,12 @@
+
 import os
 
-
-class Work:
-
+class Skill:
 
     def skills():
         skills_player = []
 
-        habilidades = [
+        habilidades = (
             "Lógico-Matemática",  # 1
             "Interpessoal",  # 2
             "Naturalista",  # 3
@@ -17,12 +16,12 @@ class Work:
             "Tecnologia", # 7
             "Religioso", # 8
             "Negócios" # 9
-        ]
+        )
 
         while len(skills_player) < 3:
             os.system("cls" if os.name == "nt" else "clear")
 
-            Work.screen_skills()
+            Skill.screen_skills()
             print("Escolha suas habilidades:")
 
             try:
@@ -50,7 +49,6 @@ class Work:
 
         return skills_player
     
-
     
     def screen_skills():
         print("o======================================================================o")

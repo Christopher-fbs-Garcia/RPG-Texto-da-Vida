@@ -1,4 +1,4 @@
-from .works_player import Work
+from .skills_player import Skill
 from .countries import Countries
 
 class Player:
@@ -17,5 +17,6 @@ class Player:
         self.addict = list(addict) if addict is not None else []
         self.life = bool(life)
         self.life_expectancy = int(life_expectancy) # Okay 
+
 
 my_player = Player()
